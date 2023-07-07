@@ -1,0 +1,297 @@
+.about {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.about p i {
+  color: #beb555;
+}
+
+.skills {
+  margin: 50px 0;
+}
+
+.skills h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px;
+}
+
+.skills li {
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  color: #ddd;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.footer p {
+  color: #3e5151;
+  background-color: #b8b7b7;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #beb555;
+  border-radius: 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.certificates {
+  margin: 50px 0;
+}
+
+.certificates h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.certificate-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.certificate {
+  width: calc(25% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.certificate:last-child {
+  margin-right: 0;
+}
+
+.certificate-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.certificate p {
+  font-size: 18px;
+  margin: 0;
+  color: #ddd;
+}
+
+@media (max-width: 991px) {
+  .certificate-row {
+    flex-direction: column;
+  }
+
+  .certificate {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+}
+
+.h1-about {
+  text-shadow: 3px 3px #beb555;
+  text-align: center;
+  color: #ddd;
+  font-size: 40px;
+}
+
+.personal-info {
+  margin: 80px 0;
+}
+
+.personal-info li b {
+  font-size: 25px;
+  color: #ddd;
+}
+
+.personal-info h2 {
+  margin-bottom: 20px;
+}
+
+.personal-info ul {
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.personal-info .sociai-media {
+  color: #000000 !important;
+  border-radius: 7px;
+  padding: 3px;
+  width: 40%;
+  margin-left: 30% !important;
+}
+
+.personal-info .sociai-media b {
+  color: #000000 !important;
+}
+
+.personal-info li {
+  color: #201f1f;
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 10px;
+  margin: 20px 12px 3px 0px;
+}
+
+.personal-info li strong {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
+
+.personal-info .sociai-media a {
+  border-radius: 50% 50%;
+  padding: 10px;
+  background-color: #ddd;
+  font-size: 30px;
+  vertical-align: middle;
+  color: #1a2980;
+  margin: 3px;
+}
+
+.personal-info .sociai-media a:hover {
+  background-color: #beb555;
+  color: #1a2980;
+}
+
+.html-css-bootstrap {
+  width: 90%;
+}
+
+.tailwind {
+  width: 90%;
+}
+
+.uizard {
+  width: 90%;
+}
+
+.javascript {
+  width: 70%;
+}
+
+.react {
+  width: 40%;
+}
+
+.csharp {
+  width: 85%;
+}
+
+.sql {
+  width: 90%;
+}
+
+.photoshop {
+  width: 90%;
+}
+
+.visual-studio {
+  width: 90%;
+}
+
+.timeline {
+  display: flex;
+}
+
+/* .timeline-line {
+  font-size: 35px;
+  margin: 20px 20px 20px 20px;
+} */
+
+.timeline .container {
+  padding: 40px 70px;
+}
+
+.timeline .left {
+  text-align: left;
+}
+
+.timeline p {
+  font-size: 20px;
+  color: #ddd;
+}
+
+.timeline .right {
+  text-align: right;
+}
+
+.rounded-img {
+  background-color: aliceblue;
+  border-radius: 25% 10%;
+  padding: 18px;
+  box-shadow: 2px 2px 2px 1px #beb555;
+}
+
+.rounded-icon {
+  font-size: 33px;
+  color: #beb555;
+}
+
+.timeline .content p {
+  text-shadow: 1px 1px #000000;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    display: block !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .sociaimedia-icon {
+    margin-bottom: 30px;
+  }
+  .sociai-media a {
+    margin-top: 20px !important;
+  }
+}
+
+.timeline-h2 {
+  margin-top: 25px;
+  font-size: 23px;
+  text-shadow: 1px 2px #ddd;
+}
+
+.timeline-line-icon {
+  color: #ddd;
+  font-size: 40px;
+}
+
+.left-column,
+.right-column {
+  padding: 20px;
+}
+
+.left-column {
+  width: 43%;
+}
+
+.right-column {
+  width: 70%;
+}
+
+.skill-bg {
+  margin: 50px 0;
+}

@@ -1,0 +1,17 @@
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: rgb(190, 181, 85, 0.4);
+  padding: 17px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+    flex-direction: row;
+  }
+}

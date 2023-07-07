@@ -1,0 +1,82 @@
+.my {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 645;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px rgb(153, 152, 152);
+  color: #2f3232;
+}
+
+.header {
+  width: 100%;
+  position: relative;
+}
+
+.header-img {
+  width: 100%;
+  height: 43vh;
+  object-fit: cover;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  border: solid 2px #989898;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.star-icon {
+  color: #beb555;
+}
+
+.btn-cv {
+  box-shadow: 5px 5px black;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 8px;
+  color: #1a2980;
+  font-weight: bold;
+  background: transparent;
+  font-size: 18px;
+  border: 2px solid #1a2980;
+  text-shadow: 1px 1px #989898;
+}
+
+.btn-cv:hover {
+  padding: 5px;
+  color: #007bff;
+  background-color: #1a2980;
+}
+
+.btn-cv a {
+  text-decoration: none;
+  color: #1a2980;
+}
+
+.btn-cv a:hover {
+  padding: 5px;
+  color: #007bff;
+  background-color: #1a2980;
+}
+
+.btn-cv i {
+  font-size: 20px;
+  text-shadow: 2px 1px #989898;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+hr {
+  width: 30%;
+  margin: 0 25% 0 35%;
+}
+
+.h1-about {
+  text-shadow: 3px 3px #beb555;
+  text-align: center;
+  color: #ddd;
+  font-size: 40px;
+}
