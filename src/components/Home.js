@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Home.css";
 import PC from "../assets/pc.png";
 import DownloadIcon from "@mui/icons-material/Download";
-import CV from "../assets/CV Merve Önalan .pdf";
+import CV from "../assets/CV Merve Önalan.pdf";
 import StarRateIcon from "@mui/icons-material/StarRate";
 
 export const Home = () => {
