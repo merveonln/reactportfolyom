@@ -11,7 +11,7 @@ import EmailIcon from "@mui/icons-material/Email";
 
 import NearMeIcon from "@mui/icons-material/NearMe";
 
-import CV from "../assets/CV Merve Önalan.pdf";
+import CV from "../assets/Merve Önalan.pdf";
 
 function ContactForm() {
   const [name, setName] = useState("");
